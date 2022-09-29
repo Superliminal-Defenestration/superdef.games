@@ -10,5 +10,11 @@ body {
 .bloomText {
 
     text-shadow:     0 0 7px #fff,0 0 10px #fff,0 0 21px #fff;
+    
+}
+.bloomImage {
 
+    filter: drop-shadow(0 0 0.75rem rgba(255, 255, 255, 0.425));
+    
+    
 }
