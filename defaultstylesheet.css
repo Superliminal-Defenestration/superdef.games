@@ -19,12 +19,13 @@ body {
 
     50%{height: 42.5%; top: 15%;right: 0%;}
 
-    100% {height:25%; top: 15%; right:90%;}
+    100% {height:30%; top: 15%; right:90%;}
     
         
         
 
 }
+
 .bloomText {
 
     text-shadow:     0 0 7px #fff,0 0 10px #fff,0 0 21px #fff;
@@ -66,4 +67,32 @@ body {
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
     
+}
+.mainBars {
+
+    position: absolute;
+    display: block;
+  
+    filter: drop-shadow(0 0 0.75rem rgba(255, 255, 255, 0.425));
+    width: auto;
+    height: 75%;
+    top: 100%;
+    
+    bottom: 0px;
+    
+    animation-name: main_bar_animation;
+        animation-duration: 2s;
+        animation-delay: 4s;
+        animation-fill-mode: both;
+}
+@keyframes main_bar_animation {
+
+0%{
+
+}
+100%{
+    top:20%;
+
+}
+
 }
