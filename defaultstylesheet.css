@@ -83,22 +83,33 @@ body {
     top: 100%;
     
     bottom: 0px;
-    
     animation-name: main_bar_animation;
         animation-duration: 2s;
-        
-        animation-fill-mode: both;
+    
+        animation-fill-mode: forwards;
+    
 }
 @keyframes main_bar_animation {
 
 0%{
-
+    top:100%
 }
 100%{
    
     top: 20%;
 }
 
+}
+@keyframes main_bar_collapse {
+
+    0% {
+        top: 20%;
+    }
+
+    100% {
+
+        top: 100%;
+    }
 }
 @keyframes name_fade_animation {
     
