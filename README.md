@@ -1,7 +1,63 @@
-# superdef.games
-welcome
+# Nuxt 3 Minimal Starter
 
-complimentary synthwave / outrun playlist : https://open.spotify.com/playlist/4KDDt4uDvfhB5mpR3Z4qTR?si=357e69631f75417d
+Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
 
-stream the sploink @ https://open.spotify.com/playlist/57ylZF65XifaeudSxmpnEH?si=f3ac31be60fd4133
-rap sploink @ https://open.spotify.com/playlist/19ZjYX9Vk6XgMBAnPxoibf?si=5dc53677af7b41f7
+## Setup
+
+Make sure to install the dependencies:
+
+```bash
+# npm
+npm install
+
+# pnpm
+pnpm install
+
+# yarn
+yarn install
+```
+
+## Development Server
+
+Start the development server on `http://localhost:3000`:
+
+```bash
+# npm
+npm run dev
+
+# pnpm
+pnpm run dev
+
+# yarn
+yarn dev
+```
+
+## Production
+
+Build the application for production:
+
+```bash
+# npm
+npm run build
+
+# pnpm
+pnpm run build
+
+# yarn
+yarn build
+```
+
+Locally preview production build:
+
+```bash
+# npm
+npm run preview
+
+# pnpm
+pnpm run preview
+
+# yarn
+yarn preview
+```
+
+Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
